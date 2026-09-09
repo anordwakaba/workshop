@@ -44,12 +44,13 @@ class Player :
 
 gold_coin = Treasure("Gold Coin", 100)
 diamond = Treasure("Diamond", 500)
-ancient_artifact = Treasure("Ancient Artifact", 1000)
+ancient_artifact = Treasure("Ancient Artifact", 100)
 
 cave = Location("Karura Cave")
 beach = Location("Diani Beach")
 
 cave.add_treasure(ancient_artifact)
+
 beach.add_treasure(gold_coin)
 cave.add_treasure(ancient_artifact)
 
